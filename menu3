@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic C Sandwich - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StreetFoodies</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vendor-details.html">Vendors</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="index.html#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Classic C Sandwich - Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="grilled cheese.jpeg" alt="Grilled Cheese">
+                    <h3>Grilled Cheese</h3>
+                    <p>Melted cheese in perfectly toasted bread. ₹70</p>
+                </div>
+                <div class="menu-item">
+                    <img src="club sandwich.jpeg" alt="Club Sandwich">
+                    <h3>Veg Club Sandwich</h3>
+                    <p>Layered sandwich packed with veggies. ₹100</p>
+                </div>
+                <div class="menu-item">
+                    <img src="paneer tikka sandwich.jpeg" alt="Paneer Tikka Sandwich">
+                    <h3>Paneer Tikka Sandwich</h3>
+                    <p>Marinated paneer in a toasted sandwich. ₹120</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StreetFoodies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
