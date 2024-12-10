@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ Garden Vada Pav - Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StreetFoodies</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="details">
+            <h2>JJ Garden Vada Pav - Vendor Details</h2>
+            <p>Location: MG Road, Camp, Pune</p>
+            <p>Speciality: Vada Pav</p>
+            <p>Hours: 9:00 AM - 9:00 PM</p>
+        </section>
+
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <h3>Neha P.</h3>
+                    <p>"The most delicious Vada Pav I’ve ever had!"</p>
+                </div>
+                <div class="review-card">
+                    <h3>Akash D.</h3>
+                    <p>"Authentic and mouth-watering taste."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StreetFoodies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
