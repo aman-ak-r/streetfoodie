@@ -230,3 +230,36 @@ button {
     font-weight: bold;
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
+    
+button:hover {
+    background-color: var(--button-hover);
+    transform: scale(1.1);
+}
+
+.review-card .reviewer img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+    border: 3px solid var(--accent-color);
+}
+
+.review-card .reviewer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.review-card h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.review-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
