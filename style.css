@@ -1,1 +1,27 @@
-
+:root {
+    --background-color: #F8F3E8;
+    --primary-color: #E74C3C;
+    --secondary-color: #2C3E50;
+    --accent-color: #F39C12;
+    --text-color: #2C3E50;
+    --card-bg: #FFFFFF;
+    --button-bg: #3498DB;
+    --button-hover: #1ABC9C;
+    --gradient-bg: linear-gradient(to right, #E74C3C, #F39C12);
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --font-family: 'Inter', sans-serif;
+    --transition: 0.3s ease-in-out;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    cursor: default;
+}
+button {
+    cursor: pointer;
+    animation: pulse 2s infinite ease-in-out;
+}
