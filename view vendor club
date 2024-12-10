@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic C Sandwich - Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StreetFoodies</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="details">
+            <h2>Classic C Sandwich - Vendor Details</h2>
+            <p>Location: Narayan Peth, Pune</p>
+            <p>Speciality: Sandwiches</p>
+            <p>Hours: 8:00 AM - 8:00 PM</p>
+        </section>
+
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <h3>Riya T.</h3>
+                    <p>"Fresh and tasty sandwiches every time!"</p>
+                </div>
+                <div class="review-card">
+                    <h3>Vikram K.</h3>
+                    <p>"Affordable and delicious food."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StreetFoodies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
