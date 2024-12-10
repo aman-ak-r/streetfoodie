@@ -263,3 +263,41 @@ button:hover {
     color: #555;
 }
 
+.burger {
+    display: block;
+    cursor: pointer;
+}
+.burger {
+display: none;
+font-size: 2rem;
+color: #fff;
+cursor: pointer;
+}
+.vendor-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.view-button {
+    display: inline-block;
+    margin: 1rem auto 0;
+    background-color: var(--button-bg);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.view-button:hover {
+    background-color: var(--button-hover);
+    transform: scale(1.05);
+}
+#about {
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+}
