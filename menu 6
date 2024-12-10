@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitale Bandhu - Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StreetFoodies</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="details">
+            <h2>Chitale Bandhu - Vendor Details</h2>
+            <p>Location: Deccan Gymkhana, Pune</p>
+            <p>Speciality: Sweets and Savories</p>
+            <p>Hours: 10:00 AM - 8:00 PM</p>
+        </section>
+
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <h3>Pooja M.</h3>
+                    <p>"Loved the pedhas and bhakarwadi. Highly recommended!"</p>
+                </div>
+                <div class="review-card">
+                    <h3>Rahul J.</h3>
+                    <p>"Amazing quality and authentic taste."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StreetFoodies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
