@@ -1,17 +1,20 @@
+
+
 :root {
-    --background-color: #F8F3E8;
-    --primary-color: #E74C3C;
-    --secondary-color: #2C3E50;
-    --accent-color: #F39C12;
-    --text-color: #2C3E50;
-    --card-bg: #FFFFFF;
-    --button-bg: #3498DB;
-    --button-hover: #1ABC9C;
-    --gradient-bg: linear-gradient(to right, #E74C3C, #F39C12);
+    --background-color: #f8f3e8;
+    --primary-color: #e74c3c;
+    --secondary-color: #2c3e50;
+    --accent-color: #f39c12;
+    --text-color: #2c3e50;
+    --card-bg: #ffffff;
+    --button-bg: #3498db;
+    --button-hover: #1abc9c;
+    --gradient-bg: linear-gradient(to right, #e74c3c, #f39c12);
     --shadow-color: rgba(0, 0, 0, 0.2);
     --font-family: 'Inter', sans-serif;
     --transition: 0.3s ease-in-out;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -21,10 +24,14 @@ body {
     line-height: 1.6;
     cursor: default;
 }
+
 button {
     cursor: pointer;
     animation: pulse 2s infinite ease-in-out;
 }
+
+
+
 body {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
@@ -53,6 +60,7 @@ header.hero::before {
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2), transparent);
     z-index: 1;
 }
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -82,6 +90,8 @@ nav {
     z-index: 100;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
 .logo {
     font-size: 2rem;
     font-weight: bold;
@@ -90,11 +100,13 @@ nav {
     cursor: pointer;
     border-radius: 15px;
 }
+
 nav ul {
     list-style: none;
     display: flex;
     gap: 2rem;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -104,8 +116,9 @@ nav ul li a {
     border-radius: 30px;
     transition: all 0.3s ease;
     position: relative;
-    cursor: pointer;
+    cursor: pointer; 
 }
+
 nav ul li a.active {
     color: #ff6f61;
     text-decoration: underline;
@@ -135,6 +148,7 @@ html {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
 main {
     padding: 2rem 1rem;
 }
@@ -170,6 +184,7 @@ h2 {
 .review-card:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
 
 .food-card img,
 .vendor-card img,
@@ -178,6 +193,7 @@ h2 {
     height: 250px;
     object-fit: cover;
 }
+
 .food-card h3,
 .vendor-card h3,
 .review-card h4 {
@@ -185,12 +201,14 @@ h2 {
     font-size: 1.8rem;
     color: var(--secondary-color);
 }
+
 .food-card p,
 .vendor-card p,
 .review-card p {
     margin: 0 1rem 1rem;
     font-size: 1rem;
 }
+
 .rating {
     color: var(--accent-color);
     font-weight: bold;
@@ -230,7 +248,7 @@ button {
     font-weight: bold;
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
-    
+
 button:hover {
     background-color: var(--button-hover);
     transform: scale(1.1);
@@ -263,22 +281,30 @@ button:hover {
     color: #555;
 }
 
+
+
+
 .burger {
     display: block;
     cursor: pointer;
 }
+
+
+
 .burger {
 display: none;
 font-size: 2rem;
-color: #fff;
+color: #fff; 
 cursor: pointer;
 }
+
 .vendor-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
 }
+
 .view-button {
     display: inline-block;
     margin: 1rem auto 0;
@@ -292,22 +318,26 @@ cursor: pointer;
     font-weight: bold;
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
+
 .view-button:hover {
     background-color: var(--button-hover);
     transform: scale(1.05);
 }
+
+
 #about {
     width: 80%;
     margin: 3rem auto;
     text-align: center;
 }
-    h2 {
+
+h2 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 2rem;
 }
 
-
+/* Team Grid */
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -344,12 +374,12 @@ cursor: pointer;
 .menu-item img {
     width: 100%;
     height: auto; 
-    max-width: 200px; 
+    max-width: 200px;
 }
 
 .guides-section{
-    
+   
     text-align: center;
 }
-    
-    
+
+
