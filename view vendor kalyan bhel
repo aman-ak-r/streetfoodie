@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalyan Bhel - Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StreetFoodies</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="details">
+            <h2>Kalyan Bhel - Vendor Details</h2>
+            <p>Location: Koregaon Park, Pune</p>
+            <p>Speciality: Bhel Puri, Sev Puri, Dahi Puri</p>
+            <p>Hours: 10:00 AM - 10:00 PM</p>
+        </section>
+
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <h3>Ananya G.</h3>
+                    <p>"Best Bhel Puri in town! Fresh and flavorful."</p>
+                </div>
+                <div class="review-card">
+                    <h3>Rohan S.</h3>
+                    <p>"Great service and amazing taste."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StreetFoodies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
